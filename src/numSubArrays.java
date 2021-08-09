@@ -1,6 +1,7 @@
 public class numSubArrays {
     public static void main(String[] args) {
-        int[] myArr = {1,2,3};
+        int[] myArr = {-1,-2,-3,1,2};
+        //int[] myArr = {1, 7, 3, 5, 2, 8, 10, 24, -1, -5, 4};
         System.out.println("Num Subarrays = " + subArrays(myArr));
     }
     public static int subArrays(int[] myArr){
